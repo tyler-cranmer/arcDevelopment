@@ -1,11 +1,12 @@
 import { createTheme } from '@mui/material/styles';
 
-const godBlue = '#0B72B9';
+const godBlue = '#472DDF';
+  // '#0B72B9';
 const godOrange = '#FFBA60';
 export default createTheme({
   palette: {
     common: {
-      blue: `${godBlue}`,
+      // blue: `${godBlue}`,
       orange: `${godOrange}`,
     },
     primary: {
@@ -21,7 +22,9 @@ export default createTheme({
       textTransform: 'none',
       fontWeight: 700,
       fontSize: '1rem',
-      color: 'white',
+    },
+    logo: {
+      color: `white`,
     },
   },
 });
